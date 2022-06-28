@@ -1,0 +1,43 @@
+.container {
+    width: 1536px;
+}
+
+body {
+    background-color: rgb(255, 184, 0);
+}
+
+.BGC {
+    background-color: rgb(255, 223, 110);
+}
+
+.textureImg {
+    position: absolute;
+    width: 99%;
+    mix-blend-mode: darken;
+}
+
+.boom {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 6vh;
+    text-align: center;
+}
+
+.boomm {
+    opacity: 100%;
+    position: relative;
+    width: 50vw;
+    height: 80vh;
+    animation-duration: 1.5s;
+    animation-name: boomm;
+}
+
+@keyframes boomm {
+    from {
+        width: 0vw;
+    }
+    to {
+        width: 50vw;
+    }
+}
