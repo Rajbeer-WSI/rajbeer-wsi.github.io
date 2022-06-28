@@ -13,6 +13,7 @@ body {
 .textureImg {
     position: absolute;
     width: 99%;
+    height:100vh;
     mix-blend-mode: darken;
 }
 
